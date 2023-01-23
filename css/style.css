@@ -1,0 +1,430 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #21243D;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* header styles start */
+.header__nav{
+    padding-top: 27px;
+    margin-bottom: 140px;
+}
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.header__item{
+    margin-right: 33px;
+    transition: .2s;
+}
+.header__link{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.header__item:last-child{
+    margin-right: 60px;
+}
+.header__item:hover{
+    transform: scale(1.5);
+}
+/* header styles end */
+
+/* intro styles start */
+.wrapper {
+    max-width: 855px;
+    margin: 0 auto;
+}
+.intro__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 71px;
+}
+.intro__title{
+    max-width: 440px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+.intro__subtitle{
+    max-width: 497px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 38px;
+}
+.download__resume{
+    display: inline-block;
+    color: white;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 208px;
+    text-decoration: none;
+    background-color: red;
+    padding: 13px 20px;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+.download__resume:hover{
+    transform: scale(1.2);
+}
+/* intro styles end */
+
+/* Design styles start */
+.design{
+    background-color: #EDF7FA;
+    margin-bottom: 27px;
+}
+.recent__posts-row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+    margin-bottom: 22px;
+}
+.posts{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+.view-all{
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00A8CC;
+    transition: 0.2s;
+}
+.view-all:hover{
+    transform: scale(1.5);
+}
+.design__cards{
+    display: flex;
+    padding-bottom: 32px;
+    justify-content: space-between;
+}
+.design__scratch{
+    background-color: white;
+    border-radius: 4px;
+    padding: 23px;
+}
+.date{
+    display: flex;
+    margin-bottom: 20px;
+}
+.card__date{
+    margin-right: 30px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.line{
+    height: 18px;
+    border: 1px solid #000000;
+    margin-right: 30px;
+}
+.design__pattern{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.design__desc{
+    width: 368px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.design__scratch-info{
+    width: 374px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+/* Design styles end */
+
+/* Featured works styles start */
+.featured__work-title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.featured{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+hr{
+    margin-bottom: 35px;
+}
+.featured__work-desc{
+    width: 594px;
+}
+.featured__work-desc-title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+.subtitle__items{
+    display: flex;
+    margin-bottom: 17px;
+}
+.featured__year{
+    text-align: center;
+    padding-top: 2px;
+    color: white;
+    background-color: #142850;
+    width: 62px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 16px;
+    margin-right: 40px;
+}
+.featured__text{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+}
+.featured__work-desc-subtitle{
+    width: 560px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Featured works styles end */
+
+/* Form styles start */
+.form{
+    margin-bottom: 30px;
+}
+.wrapper__form{
+    background: black;
+}
+.form__form {
+    max-width: 564px;
+    margin: auto;
+    padding-top: 69px;
+    padding-bottom: 50px;
+}
+.label{
+    display: none;
+}
+.textarea {
+    margin-bottom: 22px;
+}
+.field {
+    resize: none;
+    color: white;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 30px 18px 30px ;
+    border: none;
+}
+.darck{
+    background-color: #FFFFFF2E;
+}
+.shine{
+    background-color: #FFFFFF33;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+.send__message{
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    color: #7EC4BD;
+    background: black;
+    border-color: #7EC4BD;
+    padding: 15px 60px;
+    border-width: 2px;
+    border: solid;
+    transition: 0.2s;
+}
+.send__message:hover{
+    transform: scale(1.1);
+}
+/* Form styles end */
+
+/* Footer styles start */
+.footer{
+    margin-bottom: 54px;
+}
+.footer__items{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 26px;
+}
+.social__link{
+    text-decoration: none;
+}
+.footer__ico-pic{
+    transition: 0.2s;
+}
+.footer__ico-pic:hover{
+    transform: scale(1.5);
+}
+.footer__text {
+    font-family: 'Heebo';
+    display: flex;
+    justify-content: center;
+    color: #21243D;
+}
+option{
+    background-color: black;
+
+}
+/* Footer styles end */
+
+/* Blog header styles start */
+.header__nav-blog{
+    padding-top: 27px;
+    margin-bottom: 106px;
+}
+.header__list-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 140px;
+}
+.header__item-blog{
+    margin-right: 33px;
+    transition: .2s;
+}
+.header__link-blog{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.header__item-blog:last-child{
+    margin-right: 60px;
+}
+.header__item-blog:hover{
+    transform: scale(1.5);
+}
+/* Blog header styles end */
+
+/* Blog styles start */
+.blog{
+    margin-bottom: 104px;
+}
+.blog__title {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 55px;
+}
+.featured__work-title-blog{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.featured-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.line-blog{
+    margin: 0 20px;
+    height: 21px;
+    border: 1px solid #000000;
+}
+.hr__blog{
+    margin-bottom: 35px;
+}
+.hr__blog:last-child{
+    margin-bottom: 0;
+}
+.featured__work-desc-blog{
+    width: 594px;
+}
+.featured__work-desc-title-blog{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+.subtitle__items-blog{
+    display: flex;
+    margin-bottom: 17px;
+}
+.featured__year-blog{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.featured__text-blog{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+}
+.featured__work-desc-subtitle-blog{
+    width: 682px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Blog styles end */
