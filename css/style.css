@@ -428,3 +428,22 @@ option{
     line-height: 24px;
 }
 /* Blog styles end */
+
+/* Works styles start */
+.works{
+    margin-bottom: 109px;
+}
+.works__title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+.works__hr{
+    margin-bottom: 35px;
+}
+.works__hr:last-child{
+    margin-bottom: 0;
+}
+/* Works styles end */
