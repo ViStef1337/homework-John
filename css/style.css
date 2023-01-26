@@ -17,6 +17,9 @@ img {
     height: auto;
 }
 /* header styles start */
+header{
+    max-width: 1700px;
+}
 .header__nav{
     padding-top: 27px;
     margin-bottom: 140px;
@@ -56,8 +59,10 @@ img {
     justify-content: space-between;
     margin-bottom: 71px;
 }
+.intro__info{
+    max-width: 497px;
+}
 .intro__title{
-    max-width: 440px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 700;
@@ -66,7 +71,6 @@ img {
     margin-bottom: 40px;
 }
 .intro__subtitle{
-    max-width: 497px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
@@ -155,7 +159,7 @@ img {
     font-size: 18px;
 }
 .design__desc{
-    width: 368px;
+    max-width: 368px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
@@ -163,7 +167,7 @@ img {
     line-height: 24px;
 }
 .design__scratch-info{
-    width: 374px;
+    max-width: 374px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 700;
@@ -190,7 +194,7 @@ hr{
     margin-bottom: 35px;
 }
 .featured__work-desc{
-    width: 594px;
+    max-width: 594px;
 }
 .featured__work-desc-title{
     font-family: 'Heebo';
@@ -203,12 +207,14 @@ hr{
     display: flex;
     margin-bottom: 17px;
 }
+.subtitle__items{
+    align-items: center;
+}
 .featured__year{
     text-align: center;
-    padding-top: 2px;
+    padding: 5px 15px;
     color: white;
     background-color: #142850;
-    width: 62px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 900;
@@ -224,7 +230,6 @@ hr{
     color: #8695A4;
 }
 .featured__work-desc-subtitle{
-    width: 560px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
