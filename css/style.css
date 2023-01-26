@@ -85,7 +85,7 @@ header{
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    width: 208px;
+    max-width: 208px;
     text-decoration: none;
     background-color: red;
     padding: 13px 20px;
@@ -398,7 +398,7 @@ option{
     margin-bottom: 0;
 }
 .featured__work-desc-blog{
-    width: 594px;
+    max-width: 594px;
 }
 .featured__work-desc-title-blog{
     font-family: 'Heebo';
@@ -425,7 +425,7 @@ option{
     color: #8695A4;
 }
 .featured__work-desc-subtitle-blog{
-    width: 682px;
+    max-width: 682px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
